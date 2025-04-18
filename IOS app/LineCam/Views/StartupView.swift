@@ -2,8 +2,9 @@
 //  StartupView.swift
 //  LineCam
 //
-//  Created by Nicolas Boving on 4/13/25.
+//  Created by Nicolas Boving on 4/17/25.
 //
+
 
 import SwiftUI
 
@@ -13,7 +14,7 @@ struct StartupView: View {
     var body: some View {
         Group {
             if isActive {
-                LoginView()
+                HomeView()
             } else {
                 VStack {
                     Spacer()
